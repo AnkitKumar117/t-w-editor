@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(240, 244, 245);
+    
+    
+  }
+  .content{
+    box-sizing: border-box;
+  }
+
+.txteditor {
+  border: 10px solid rgba(10, 10, 10, 0.445);
+  box-sizing: border-box;
+  opacity: 1;
+ }
+ .txteditor:hover{
+  box-shadow: 5px 5px 30px rgb(40, 240, 240);
+  transform: scale(1.00005);
+ }
+
+.txteditor-content {
+  background-color: rgba(77, 65, 65, 0.411);
+  box-sizing: border-box;
+  height: 600px;
+  outline: 0;
+  overflow-y: auto;
+  padding: 10px; }
+
+.txteditor-actionbar {
+  background-color: gray;
+  border-bottom: 2px solid rgba(10, 10, 10, 0.1); }
+
+  .txteditor-actionbar:hover{
+    box-shadow: 5px 2px 13px rgb(49, 15, 243);
+    transition: all .5s;
+    transform: scale(1.005);
+  }
+
+.txteditor-button {
+  background-color: rgb(165, 171, 190);
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  outline: 0;
+  width: 30px;
+  vertical-align: bottom; }
+
+  .txteditor-button :hover{
+    box-shadow: 5px 2px 13px rgb(226, 33, 33);
+    background-color: lemonchiffon;
+  }
+
+.txteditor-button-select{
+    background-color: black; 
+}
